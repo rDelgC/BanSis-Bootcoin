@@ -1,0 +1,11 @@
+spring:
+    application:
+        name: bansis-bootcoin
+    data:
+      mongodb:
+        uri: mongodb://localhost:27017/bandb-bootcoin
+    cloud:
+        config:
+            uri: http://localhost:8081
+            username: nttdatosr
+            password: nttdatosd
